@@ -1,0 +1,27 @@
+{
+  "targetUrl": "https://hearing-spotlight-submissions-cartoons.trycloudflare.com/webhooks/hubspot",
+  "throttling": {
+    "maxConcurrentRequests": 10
+  },
+  "subscriptions": [
+    {
+      "eventType": "contact.creation"
+    },
+    {
+      "eventType": "contact.propertyChange",
+      "propertyName": "firstname"
+    },
+    {
+      "eventType": "contact.propertyChange",
+      "propertyName": "lastname"
+    },
+    {
+      "eventType": "contact.propertyChange",
+      "propertyName": "email"
+    },
+    {
+      "eventType": "contact.propertyChange",
+      "propertyName": "phone"
+    }
+  ]
+}
