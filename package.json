@@ -1,0 +1,30 @@
+{
+  "name": "wix-hubspot-sync",
+  "version": "1.0.0",
+  "description": "Production-grade bi-directional Wix and HubSpot CRM integration with distributed Redis locking and AES-256-GCM token encryption",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --prefix backend build && npm --prefix frontend build",
+    "build:backend": "pnpm --prefix backend build",
+    "build:frontend": "npm --prefix frontend build",
+    "dev:backend": "pnpm --prefix backend dev",
+    "dev:frontend": "npm --prefix frontend dev",
+    "typecheck": "pnpm --prefix backend exec tsc --noEmit",
+    "test": "pnpm --prefix backend test"
+  },
+  "keywords": [
+    "wix",
+    "hubspot",
+    "crm",
+    "integration",
+    "bidirectional-sync",
+    "redis",
+    "postgresql",
+    "drizzle-orm",
+    "neon",
+    "astro",
+    "wix-design-system"
+  ],
+  "author": "tamiopia",
+  "license": "MIT"
+}
